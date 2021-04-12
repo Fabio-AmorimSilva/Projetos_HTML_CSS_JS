@@ -1,0 +1,49 @@
+/* Variáveis*/
+:root{
+    --preto: #141414;
+    --branco: #ffffff;
+
+}
+
+
+/*Reset CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+    vertical-align: baseline;
+
+}
+
+body {
+    list-style: none;
+
+}
+
+.storeTitle{
+    position: absolute;
+    margin-right: 900px;
+    margin-top: auto;
+
+}
+
+.navegationBar{
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+.nav-link{
+    color: var(--branco);
+    transition: 0.3s;
+
+}
+
+.nav-link:hover{
+    color: #ff0000;
+    
+}
+
+
+
