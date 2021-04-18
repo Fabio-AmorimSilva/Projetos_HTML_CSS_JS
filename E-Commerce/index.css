@@ -41,7 +41,7 @@ body {
 }
 
 .nav-link:hover{
-    color: #ff0000;
+    color: #0000ff;
     
 }
 
@@ -51,5 +51,14 @@ body {
 
 }
 
+.cart.nav-link:hover{
+    color: var(--branco);
 
+}
 
+.searchBar{
+   margin-left: 882px;
+   margin-bottom: 0px;
+   width: 300px;
+
+}
