@@ -17,8 +17,15 @@
 
 }
 
+/* My configuration*/
 body {
     list-style: none;
+
+}
+
+img{
+    width: 400px;
+    height: 200px;
 
 }
 
@@ -32,6 +39,7 @@ body {
 .navegationBar{
     background-color: var(--preto);
     color: var(--branco);
+
 }
 
 .nav-link{
@@ -45,9 +53,8 @@ body {
     
 }
 
-.products.container {
-    width: 400px;
-    height: 200px;
+.container.products img {
+    height: 633px;
 
 }
 
@@ -57,8 +64,27 @@ body {
 }
 
 .searchBar{
-   margin-left: 882px;
+   margin-left: 879px;
    margin-bottom: 0px;
    width: 300px;
 
 }
+
+.principalProducts{
+    display: flex;
+
+}
+
+.gridProducts{
+    display: flex;
+    flex-direction: column;
+
+}
+
+span.btn-danger{
+    border-radius: 0;
+    margin-left: 50px;
+    margin-right: 100px;
+
+}
+
